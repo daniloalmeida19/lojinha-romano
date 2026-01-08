@@ -6,6 +6,16 @@
     <title>Roupas - Minha Loja</title>
     <link rel="shortcut icon" href="icones/carregador.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo.css">
+    <style>
+        .produto img {
+            width: 200px; /* Diminui o tamanho da imagem */
+            height: auto; /* Mantém a proporção */
+            transition: transform 0.3s ease; /* Suaviza o movimento */
+        }
+        .produto img:hover {
+            transform: scale(1.1); /* Efeito de ir para frente ao passar o mouse */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -84,6 +94,14 @@
                     <p class="preco">R$ 17,99</p>
                     <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
                 </article>
+
+                <article class="produto" data-id="r06" data-nome="P2 ios" data-preco="20,00">
+                    <img src="informatica/fones-cabos/p2-ios.jpeg" alt="Cabo C">
+                    <h3>p2 x ios</h3>
+                    <p class="preco">R$ 20,00</p>
+                    <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+                </article>
+
             </div>
         </section>
     </main>
