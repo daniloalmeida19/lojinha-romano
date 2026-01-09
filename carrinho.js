@@ -165,7 +165,7 @@ function finalizarCompraWhatsApp() {
         return;
     }
 
-    const numeroTelefone = "5511999999999"; // <-- COLOQUE SEU NÚMERO DE WHATSAPP AQUI (com código do país e DDD)
+    const numeroTelefone = "5511941233423"; // <-- COLOQUE SEU NÚMERO DE WHATSAPP AQUI (com código do país e DDD)
 
     let mensagem = "Olá! Gostaria de fazer o seguinte pedido:\n\n";
     let total = 0;
